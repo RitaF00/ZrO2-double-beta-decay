@@ -1,0 +1,37 @@
+==============================================================
+
+Sample:		ZrO2, “white”, purified
+mass:		323.9 g
+live time:	1145735 s
+detector:	GeCris
+
+radionuclide concentrations:
+
+Th-232:
+Ra-228:		(2 +- 1) mBq/kg		<==>	(5 +- 2) E-10 g/g
+Th-228:		(1.4 +- 0.7) mBq/kg	<==>	(4 +- 2) E-10 g/g	
+
+U-238:
+Ra-226		(1.2 +- 0.6) mBq/kg	<==>	(1.0 +- 0.5) E-10 g/g
+Th-234		< 89 mBq/kg		<==>	< 7.2 E-9 g/g
+Pa-234m		< 120 mBq/kg		<==>	< 9.6 E-9 g/g
+
+U-235:
+U-235		< 5.7 mBq/kg		<==>	< 1.0 E-8 g/g
+Pa-231		(70 +- 10) mBq/kg	<==>	(1.2 +- 0.4) E-7 g/g
+Ac-227		(0.7 +- 0.3) mBq/kg	<==>	(1.3 +- 0.5) E-9 g/g
+
+K-40:		(40 +- 10) mBq/kg	<==>	(1.4 +- 0.4) E-6 g/g
+
+Cs-137:		(0.6 +- 0.3) mBq/kg	
+
+upper limits with k=1.645, 
+uncertainties are given with k=1 (approx. 68% CL); 
+
+Ra-228 from Ac-228; 
+Th-228 from Pb-212 & Bi-212 & Tl-208; 
+Ra-226 from Pb-214 & Bi-214; 
+U-235 from U-235 & Ra-226/Pb-214/Bi-214;
+Pb-210 from Po-210;
+
+==============================================================
