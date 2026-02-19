@@ -1,0 +1,111 @@
+GESPECOR VERSION: 4.2   Mon Feb 16 14:48:19 2026
+            COINCIDENCE-SUMMING CORRECTIONS
+            ===============================
+ 
+ DETECTOR DATA FOR DETECTOR GeCrisx.det                                        
+ ======================================                                        
+                                                                               
+Comment:                                                                       
+Assenza di shield dato che il programma lo desidera (Elena)                    
+End comment                                                                    
+                                                                               
+ Detector type: 1 (HPGe). All data in cm.                                      
+ Detector radius and detector length:                                          
+          4.200          8.450                                                 
+ Inner contact: Radius and Length:                                             
+          0.400          6.950                                                 
+ Thickness of Ge dead layer: Face and Side:                                    
+        0.15000        0.15000                                                 
+ Detector holder: Thickness - Face and Side:                                   
+        0.00175        0.07500                                                 
+ Detector holder: Material (Al=1, Cu=2,other=0)                                
+              0                                                                
+ Detector holder material: File name and Density (g/cm^3):                     
+   CU.ln              8.96000E+00                                              
+ Distance from the active face to entrance window:                             
+          0.400                                                                
+ End cap: Diameter:                                                            
+          10.16                                                                
+ End cap: Window thickness and Material (Al=1,Be=2,Mg=3,other=0)               
+        0.10000              0                                                 
+ End cap: Window material - File name and Density (g/cm^3):                    
+   CU.ln              8.96000E+00                                              
+ End cap: Side thickness  and  Material (Al=1,Be=2,Mg=3,other=0)               
+        0.15000              0                                                 
+ End cap: Side material - File name and Density (g/cm^3):                      
+   CU.ln              8.96000E+00                                              
+Additional detector holder data: 3 rings.                                      
+Z(upper) Z(lower) Thick(Rad) Displ(Radial)                                     
+	-1.8 	-2.5	0.50	0.                                                            
+	-4.8	-5.5	0.50	0.                                                             
+	-7.3	-8.0	0.50	0.                                                             
+ 
+ GEOMETRY DATA FOR scatola_grande_h50.geo                                      
+ ========================================                                      
+                                                                               
+Comment:                                                                       
+serge white+green                                                              
+End comment                                                                    
+                                                                               
+ Sample geometry type: 1 (cylinder). All data in cm.                           
+ Sample radius and sample height:                                              
+          4.500          5.000                                                 
+ Container walls: Thickness:                                                   
+          0.115                                                                
+       Material (Polypropylene=1,Al=2,other=0)                                 
+              0                                                                
+       File name for material and Density (g/cm^3):                            
+   Polystyrene.ln     1.05000E+00                                              
+ Distance from the end cap to the bottom of the container:                     
+          0.146                                                                
+ Source volume (cm^3):                                                         
+          3.18086E+02                                                          
+ 
+ SAMPLE COMPOSITION DATA IN THE FILE: ZrO2.mat      DENSITY: 1.73000E+00 g/cm^3
+ 
+ SHIELD DATA IN THE FILE: SH00.SHI
+ 
+ 
+=========================================================================================
+  Nuclide      Decay    Energy     Yield        Fc      Nsec  Nsum  IdealEff.     Err.(%)
+=========================================================================================
+ 
+  AC-228       BETA-    338.32  0.1140E+00  0.96800E+00 23     1   0.33773E-01   0.34E+00
+  AC-228       BETA-    911.20  0.2620E+00  0.97521E+00 14     1   0.22550E-01   0.19E+00
+  AC-228       BETA-    964.79  0.4990E-01  0.94397E+00 15     1   0.21962E-01   0.29E+00
+  AC-228       BETA-    968.96  0.1590E+00  0.97501E+00 13     1   0.21892E-01   0.27E+00
+  BI-214       BETA-   1120.29  0.1491E+00  0.87902E+00  6     1   0.20443E-01   0.27E+00
+  BI-214       BETA-   1764.49  0.1531E+00  0.10022E+01  4     5   0.16162E-01   0.33E+00
+  BI-214       BETA-   2204.21  0.4912E-01  0.10033E+01  2    10   0.13927E-01   0.25E+00
+  BI-214       BETA-    609.31  0.4549E+00  0.88240E+00 57     0   0.26892E-01   0.24E+00
+  BI-212       BETA-    727.33  0.6651E-01  0.96216E+00  6     0   0.24932E-01   0.27E+00
+  CS-137       BETA-    661.66  0.8499E+00  0.10000E+01  0     0   0.25912E-01   0.22E+00
+  K-40         EC      1460.82  0.1066E+00  0.10000E+01  1     0   0.18020E-01   0.34E+00
+  PA-234M      BETA-   1001.03  0.8474E-02  0.10033E+01  3     1   0.21544E-01   0.26E+00
+  PB-212       BETA-    238.63  0.4360E+00  0.99999E+00  1     0   0.35343E-01   0.23E+00
+  PB-214       BETA-    242.00  0.7268E-01  0.99978E+00  2     0   0.35411E-01   0.19E+00
+  PB-214       BETA-    295.22  0.1841E+00  0.99984E+00  1     1   0.34930E-01   0.17E+00
+  PB-214       BETA-    351.93  0.3560E+00  0.99884E+00  1     0   0.33387E-01   0.22E+00
+  RA-226       ALPHA    186.21  0.3555E-01  0.10000E+01  0     0   0.32177E-01   0.14E+00
+  RA-224       ALPHA    240.99  0.4120E-01  0.99985E+00  1     0   0.35316E-01   0.20E+00
+  TH-234       BETA-     92.38  0.2180E-01  0.10000E+01  0     0   0.52239E-02   0.38E+00
+  TH-234       BETA-     92.80  0.2150E-01  0.10000E+01  0     0   0.53464E-02   0.39E+00
+  TL-208       BETA-   2614.51  0.9975E+00  0.85244E+00 13     0   0.12331E-01   0.28E+00
+  TL-208       BETA-    583.19  0.8500E+00  0.85691E+00 11     0   0.27300E-01   0.18E+00
+  U-235        ALPHA    143.77  0.1094E+00  0.99625E+00  5     0   0.23189E-01   0.16E+00
+  U-235        ALPHA    185.72  0.5700E+00  0.99678E+00  4     0   0.32005E-01   0.14E+00
+  EU-152       BETA-    778.90  0.1297E+00  0.88800E+00  3     1   0.24131E-01   0.29E+00
+  CS-138       BETA-    871.80  0.5112E-01  0.92904E+00  9     1   0.22935E-01   0.29E+00
+  Y-88         EC       898.04  0.9390E+00  0.89644E+00  2     0   0.22779E-01   0.22E+00
+  Y-88         EC      1836.05  0.9932E+00  0.89083E+00  4     0   0.15749E-01   0.31E+00
+  ZR-88        EC       392.90  0.9730E+00  0.10000E+01  1     0   0.32244E-01   0.21E+00
+  SR-85        EC       514.01  0.9850E+00  0.99999E+00  1     0   0.28824E-01   0.13E+00
+  PA-231       ALPHA    283.69  0.1650E-01  0.99999E+00  4     0   0.35189E-01   0.12E+00
+  PA-231       ALPHA    300.06  0.2410E-01  0.10000E+01  1     1   0.34838E-01   0.18E+00
+  PA-231       ALPHA    302.67  0.2300E-01  0.99999E+00  1     1   0.34686E-01   0.15E+00
+  PA-231       ALPHA    330.05  0.1000E+01  0.23077E-18  2     1   0.34034E-01   0.21E+00
+  RA-223       ALPHA    323.87  0.4060E-01  0.99983E+00  2     1   0.34167E-01   0.21E+00
+  RA-223       ALPHA    269.46  0.1423E+00  0.99983E+00  1     0   0.35411E-01   0.20E+00
+  RN-219       ALPHA    271.23  0.1107E+00  0.99904E+00  2     0   0.35186E-01   0.91E-01
+  RN-219       ALPHA    401.81  0.6750E-01  0.10007E+01  0     1   0.31845E-01   0.19E+00
+  TH-227       ALPHA    235.96  0.1260E+00  0.99963E+00  4     0   0.35252E-01   0.10E+00
